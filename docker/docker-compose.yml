@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  react:
+    image: node:20.9.0-bullseye
+    volumes:
+      - ../:/app
+    ports:
+      - 3000:3000
+      - 6006:6006
+    tty: true
+    working_dir: /app
