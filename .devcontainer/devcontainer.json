@@ -2,22 +2,24 @@
   "name": "React Vite",
   "dockerComposeFile": ["../docker/docker-compose.yml"],
   "workspaceFolder": "/app",
-"service": "react",
-"customizations": {
-	"vscode": {
-		"extensions": [
-			"antfu.vite",
-			"steoates.autoimport",
-			"ms-azuretools.vscode-docker",
-			"dbaeumer.vscode-eslint",
-			"oderwat.indent-rainbow",
-			"xyz.local-history",
-			"esbenp.prettier-vscode",
-			"rvest.vs-code-prettier-eslint",
-			"timonwong.shellcheck",
-			"Gruntfuggly.todo-tree",
-			"mosapride.zenkaku"
-		]
-	}
-}
+  "service": "react",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antfu.vite",
+        "steoates.autoimport",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "oderwat.indent-rainbow",
+        "xyz.local-history",
+        "esbenp.prettier-vscode",
+        "rvest.vs-code-prettier-eslint",
+        "timonwong.shellcheck",
+        "Gruntfuggly.todo-tree",
+        "mosapride.zenkaku",
+        "styled-components.vscode-styled-components",
+        "mhutchie.git-graph"
+      ]
+    }
+  }
 }
